@@ -1,0 +1,104 @@
+#addContainer{
+    position: grid;
+    margin-top: -10px;
+    height: 100px;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "u"
+    "a"
+    "v"
+    "c"
+    "b"
+}
+
+#userValue::placeholder{
+    padding-left: 35px
+}
+
+#userAdd::placeholder{
+    padding-left: 35px
+}
+
+#userAdd{
+    grid-area: "u";
+    /* width: 100%; */
+    text-justify: center;
+    justify-self: center;
+    display: block;
+    margin-bottom: 20px;
+    border: groove;
+    width: 140px;
+    height: 30px;
+    /* border-radius: 50px */
+
+
+}
+
+#amountAdd::placeholder{
+    padding-left: 35px
+}
+
+#amountAdd{
+    grid-area: "a";
+    display: block;
+    /* width: 100%; */
+    text-justify: center;
+    justify-self: center;   
+    margin-bottom: 20px;
+    border: groove;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px
+
+
+}
+
+#vendorAdd::placeholder{
+    padding-left: 45px
+}
+
+#vendorAdd{
+    grid-area: "v";
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: groove;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px
+
+
+}
+
+#categoryAdd::placeholder{
+    padding-left: 40px
+}
+
+#categoryAdd{
+    grid-area: "c";
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border: groove;
+    width: 130px;
+    height: 30px;
+    border-radius: 20px
+
+
+}
+
+#addButton{
+    grid-area: "b";
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    background-color: brown;
+    height: 30px;
+    border-radius: 20px
+
+
+
+
+}
