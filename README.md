@@ -2,7 +2,7 @@
 is an app for me and my roomates to keep track of bills and debts to one another.
 
 # Built With:
-React
+ - React
 Node.JS
 Express
 mongoDB
